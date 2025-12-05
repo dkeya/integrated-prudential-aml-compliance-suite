@@ -1,0 +1,2 @@
+lists: ["OFAC","UN","EU","FRC"]
+fuzzy_match_cutoff: 0.88

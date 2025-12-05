@@ -1,0 +1,21 @@
+# Copy this file to secrets.yml and fill in actual values
+# Use environment variables for sensitive data
+
+smtp:
+  host: "${SMTP_HOST}"
+  port: "${SMTP_PORT}"
+  username: "${SMTP_USERNAME}"
+  password: "${SMTP_PASSWORD}"
+  use_tls: true
+
+africas_talking:
+  api_key: "${AFRICAS_TALKING_API_KEY}"
+  username: "${AFRICAS_TALKING_USERNAME}"
+  shortcode: "${AFRICAS_TALKING_SHORTCODE}"
+
+infobip:
+  api_key: "${INFOBIP_API_KEY}"
+  base_url: "${INFOBIP_BASE_URL}"
+
+database:
+  url: "${DATABASE_URL}"

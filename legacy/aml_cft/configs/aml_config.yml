@@ -1,0 +1,29 @@
+version: "1.0"
+frc:
+  str_deadline_days: 2
+  str_threshold: 0
+  ctr_threshold_kes: 1900000
+  ctr_reporting_day: "friday"
+  sanctions_freezing_hours: 24
+  annual_report_due: "01-31"
+  record_retention_years: 7
+
+risk_scoring:
+  high_risk_threshold: 0.7
+  medium_risk_threshold: 0.4
+  weights:
+    transaction_behavior: 0.40
+    pep_status: 0.30
+    geography: 0.20
+    product: 0.10
+
+monitoring:
+  structuring_unit_kes: 150000
+  structuring_window_days: 7
+  rapid_movement_days: 5
+  unusual_activity_multiplier: 3.0
+  odd_hours: [0,1,2,3,4,23]
+
+ui:
+  sidebar_collapsed: false
+  navigation_style: "categorized"

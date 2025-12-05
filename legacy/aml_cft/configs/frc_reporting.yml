@@ -1,0 +1,4 @@
+str_form_version: "2025.1"
+ctr_form_version: "2025.1"
+goaml_endpoint: "https://sandbox.goaml.frc.go.ke"
+export_formats: ["CSV","XML","PDF"]

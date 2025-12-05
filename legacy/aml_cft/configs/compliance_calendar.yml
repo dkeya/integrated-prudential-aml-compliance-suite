@@ -1,0 +1,7 @@
+events:
+  - name: "CTR Weekly Filing"
+    cron: "0 16 * * FRI"
+    owner_role: "AML_Officer"
+  - name: "Annual Compliance Report"
+    date: "01-31"
+    owner_role: "MLRO"

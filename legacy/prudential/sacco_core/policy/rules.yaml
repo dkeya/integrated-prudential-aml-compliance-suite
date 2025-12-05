@@ -1,0 +1,13 @@
+# sacco_core/policy/rules.yml
+rules:
+  - name: Liquidity Breach
+    when: "kpis.liquidity_ratio < config.liquidity_ratio_min"
+    actions: ["email:finance", "sms:admin", "flag"]
+  
+  - name: PAR30 Breach  
+    when: "kpis.par30 > config.par30_trigger_max"
+    actions: ["email:risk", "sms:collections"]
+  
+  - name: Employer Limit
+    when: "kpis.top_employer_share > config.single_employer_share_max"
+    actions: ["email:risk", "flag"]

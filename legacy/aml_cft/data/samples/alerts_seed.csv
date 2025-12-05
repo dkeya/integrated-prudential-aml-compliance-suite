@@ -1,0 +1,3 @@
+alert_id,type,severity,status
+A001,Structuring,HIGH,OPEN
+A002,Rapid Movement,MEDIUM,OPEN

@@ -1,0 +1,9 @@
+countries_high_risk: ["IR", "KP", "AF"]
+fatf_grey_list: ["YE","PK","MM"]
+cash_intensive_naics: ["4711","4721","5617"]
+product_cash_intensity:
+  CURRENT: 0.2
+  SAVINGS: 0.3
+  FIXED: 0.1
+  MOBILE: 0.6
+  LOAN: 0.4

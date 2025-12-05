@@ -1,0 +1,34 @@
+2025-12-05 08:27:29,835 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN']}
+2025-12-05 08:27:33,293 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN']}
+2025-12-05 08:33:29,355 - sacco_compliance - INFO - user=UNKNOWN | action=login_failed | module=auth | details={'tenant_id': None}
+2025-12-05 08:33:52,005 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 08:34:19,548 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 08:34:20,641 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 08:35:23,788 - sacco_compliance - INFO - user=prudential_officer | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['PRUDENTIAL']}
+2025-12-05 08:36:37,838 - sacco_compliance - INFO - user=aml_officer | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['AML']}
+2025-12-05 08:44:48,191 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 08:45:51,716 - sacco_compliance - INFO - user=prudential_officer  | action=login_failed | module=auth | details={'tenant_id': 'demo'}
+2025-12-05 08:46:09,776 - sacco_compliance - INFO - user=prudential_officer  | action=login_failed | module=auth | details={'tenant_id': 'demo'}
+2025-12-05 08:46:40,240 - sacco_compliance - INFO - user=prudential_officer | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['PRUDENTIAL']}
+2025-12-05 08:46:41,592 - sacco_compliance - INFO - user=prudential_officer | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['PRUDENTIAL']}
+2025-12-05 08:57:35,659 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 09:39:19,310 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 09:47:49,313 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 09:52:42,248 - sacco_compliance - INFO - user=prudential_officer | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['PRUDENTIAL']}
+2025-12-05 09:53:34,117 - sacco_compliance - INFO - user=aml_officer | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['AML']}
+2025-12-05 10:08:15,385 - sacco_compliance - INFO - user=admin@cinta.com | action=login_failed | module=auth | details={'tenant_id': 'demo'}
+2025-12-05 10:08:27,035 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 10:14:23,557 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 10:18:09,090 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 10:27:18,034 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 10:29:42,595 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 10:30:49,354 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 10:39:24,186 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 10:39:44,024 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 10:43:17,533 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 10:46:20,246 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 11:03:48,699 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 11:04:26,594 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 11:08:10,110 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 11:08:36,062 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}
+2025-12-05 11:09:48,060 - sacco_compliance - INFO - user=admin | action=login_success | module=auth | details={'tenant_id': 'demo', 'roles': ['ADMIN', 'PRUDENTIAL', 'AML']}

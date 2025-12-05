@@ -1,0 +1,8 @@
+theme:
+  primary_color: "#1f77b4"
+  secondary_color: "#2e8b57"
+  background_color: "#f8f9fa"
+kpi_colors:
+  good: "#10b981"
+  warn: "#f59e0b"
+  bad:  "#ef4444"

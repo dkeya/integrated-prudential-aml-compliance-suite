@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<goAMLMessage>
+  <Report>
+    <ReportType>CTR</ReportType>
+    <SubmissionDate>2025-10-29</SubmissionDate>
+  </Report>
+  <Transactions>
+    <WeeklyAggregate>
+      <MemberID>M100204</MemberID>
+      <WeekStart>2025-06-09</WeekStart>
+      <WeekEnd>2025-06-09</WeekEnd>
+      <CashSum>2056148.00</CashSum>
+      <TransactionCount>1</TransactionCount>
+    </WeeklyAggregate>
+  </Transactions>
+</goAMLMessage>
